@@ -1,0 +1,44 @@
+{
+  "collectionPage": {
+    "welcomeMessage": "Welcome to Our Collection",
+    "title": "Collections",
+    "description": "Browse through our curated collections"
+  },
+  "homePage": {
+    "welcomeMessage": "Welcome to ZAHR RUMMAN",
+    "title": "Home",
+    "subtitle": "Your Trusted Guide to Middle Eastern Consulting Success",
+    "startJourney": "Start Your Journey Today"
+  },
+  "productPage": {
+    "welcomeMessage": "Product Details",
+    "title": "Products",
+    "description": "Explore our products and services"
+  },
+  "auth": {
+    "login": "Log in",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "rememberMe": "Remember for 30 days",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  },
+  "navigation": {
+    "home": "Home",
+    "collections": "Collections",
+    "products": "Products",
+    "pricing": "Pricing",
+    "contact": "Contact Us",
+    "journey": "The Journey"
+  },
+  "footer": {
+    "rights": "© 2025 ZAHR RUMMAN. All Rights Reserved",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy"
+  }
+}

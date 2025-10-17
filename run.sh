@@ -1,0 +1,1 @@
+(npm run lintw || true) && ((cd ../casemate-common/Client && npm run build) || true) && ((cd ../casemate-common/Shared && npm run build) || true) && npm run build && npm run start
