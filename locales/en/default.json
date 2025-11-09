@@ -1,19 +1,49 @@
 {
   "collectionPage": {
     "welcomeMessage": "Welcome to Our Collection",
-    "title": "Collections",
-    "description": "Browse through our curated collections"
+    "title": "Menu Categories",
+    "description": "Browse through our curated collections",
+    "viewAll": "View All",
+    "items": "Items",
+    "popularItems": "Popular Items",
+    "breakfastDesc": "Start your day with our traditional Middle Eastern breakfast dishes",
+    "lunchDesc": "Hearty lunch options perfect for a midday meal",
+    "dinnerDesc": "Enjoy our signature dinner dishes in a cozy atmosphere",
+    "drinksDesc": "Refreshing beverages to complement your meal"
+  },
+  "categoryPage": {
+    "backToCategories": "Back to Categories",
+    "availableItems": "Available Items",
+    "noItemsAvailable": "No Items Available Yet",
+    "checkBackSoon": "Please check back soon",
+    "exploreOther": "Explore Other Categories",
+    "discoverMore": "Discover more delicious dishes from our other menus",
+    "viewAllCategories": "View All Categories",
+    "size": "Size",
+    "calories": "cal"
   },
   "homePage": {
     "welcomeMessage": "Welcome to ZAHR RUMMAN",
     "title": "Home",
-    "subtitle": "Your Trusted Guide to Middle Eastern Consulting Success",
-    "startJourney": "Start Your Journey Today"
+    "subtitle": "Authentic Middle Eastern Cuisine Experience",
+    "startJourney": "Explore Our Menu",
+    "featuredDishes": "Featured Dishes",
+    "aboutUs": "About Us",
+    "aboutText": "ZAHR RUMMAN brings the authentic flavors of the Middle East to your table. Our chefs use traditional recipes passed down through generations, creating an unforgettable dining experience.",
+    "hours": "Opening Hours",
+    "hoursWeekdays": "Monday - Friday: 11:00 AM - 10:00 PM",
+    "hoursWeekend": "Saturday - Sunday: 10:00 AM - 11:00 PM",
+    "location": "Location",
+    "address": "123 Culinary Street, Food District, FD 12345"
   },
   "productPage": {
     "welcomeMessage": "Product Details",
     "title": "Products",
-    "description": "Explore our products and services"
+    "description": "Explore our products and services",
+    "ingredients": "Ingredients",
+    "allergens": "Allergens",
+    "addToCart": "Add to Cart",
+    "nutrition": "Nutrition Information"
   },
   "auth": {
     "login": "Log in",
@@ -30,15 +60,68 @@
   },
   "navigation": {
     "home": "Home",
-    "collections": "Collections",
-    "products": "Products",
+    "collections": "Menu Categories",
+    "products": "Dishes",
     "pricing": "Pricing",
     "contact": "Contact Us",
-    "journey": "The Journey"
+    "journey": "The Journey",
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "drinks": "Drinks"
   },
   "footer": {
     "rights": "© 2025 ZAHR RUMMAN. All Rights Reserved",
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy"
+  },
+  "menu": {
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "drinks": "Drinks",
+    "viewDetails": "View Details",
+    "price": "Price"
+  },
+  "products": {
+    "1": {
+      "name": "Hummus with Lamb",
+      "description": "Our signature creamy hummus topped with tender, slow-cooked lamb, toasted pine nuts, and fresh parsley. Served with warm pita bread.",
+      "ingredients": ["Chickpeas", "Tahini", "Lemon Juice", "Garlic", "Lamb", "Pine Nuts", "Parsley", "Olive Oil"]
+    },
+    "2": {
+      "name": "Falafel Platter",
+      "description": "Crispy, golden-brown falafel made from ground chickpeas and herbs. Served with tahini sauce, fresh vegetables, and warm pita bread.",
+      "ingredients": ["Chickpeas", "Parsley", "Cilantro", "Garlic", "Onion", "Spices", "Tahini", "Pita Bread"]
+    },
+    "3": {
+      "name": "Shawarma Wrap",
+      "description": "Thinly sliced marinated chicken or beef, slow-roasted on a vertical spit, wrapped in warm pita with garlic sauce, pickles, and fries.",
+      "ingredients": ["Chicken/Beef", "Pita Bread", "Garlic Sauce", "Pickles", "Fries", "Spices"]
+    },
+    "4": {
+      "name": "Foul Medames",
+      "description": "A traditional breakfast dish made from fava beans, cooked with garlic, lemon juice, and olive oil. Served with fresh vegetables.",
+      "ingredients": ["Fava Beans", "Garlic", "Lemon Juice", "Olive Oil", "Tomato", "Parsley"]
+    },
+    "5": {
+      "name": "Fresh Mint Lemonade",
+      "description": "Refreshing homemade lemonade with fresh mint leaves, perfectly balanced between sweet and tangy.",
+      "ingredients": ["Fresh Lemons", "Mint Leaves", "Sugar", "Water"]
+    }
+  },
+  "featuredDishes": {
+    "1": {
+      "name": "Hummus with Lamb",
+      "description": "Creamy hummus topped with tender lamb, pine nuts, and parsley"
+    },
+    "2": {
+      "name": "Falafel Platter",
+      "description": "Crispy falafel served with tahini, fresh vegetables, and pita bread"
+    },
+    "3": {
+      "name": "Shawarma Wrap",
+      "description": "Marinated chicken or beef wrapped in warm pita with garlic sauce"
+    }
   }
 }

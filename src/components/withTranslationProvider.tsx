@@ -1,5 +1,5 @@
 import initTranslations from '../app/i18n';
-import TranslationsProvider from '../components/TranslationsProvider/TranslationsProvider';
+import TranslationsProvider from './TranslationsProvider';
 
 export default async function withTranslationProvider(
   Component: any,
