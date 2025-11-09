@@ -4,14 +4,14 @@ import { menuCategories } from '../../../../data/menuData';
 import { notFound } from 'next/navigation';
 
 interface CategoryPageProps {
-  params: {
+  params: Promise<{
     category: string;
     locale: string;
-  };
+  }>;
 }
 
-export default function CategoryPage({ params }: CategoryPageProps) {
-  const { category } = params;
+export default async function CategoryPage({ params }: CategoryPageProps) {
+  const { category } = await params;
   
   // Find the category from menuCategories
   const categoryData = menuCategories.find(cat => cat.id === category);
@@ -33,7 +33,7 @@ export async function generateStaticParams() {
 
 // Add metadata for better SEO
 export async function generateMetadata({ params }: CategoryPageProps) {
-  const { category } = params;
+  const { category } = await params;
   const categoryData = menuCategories.find(cat => cat.id === category);
   
   if (!categoryData) {
